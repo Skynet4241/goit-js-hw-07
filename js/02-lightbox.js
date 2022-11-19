@@ -16,7 +16,7 @@ galleryItems.forEach((element) => {
   const galleryImage = document.createElement("img");
   galleryImage.className = "gallery__image";
   galleryImage.src = element.preview;
-  //   galleryImage.setAttribute("title", element.description);
+  galleryImage.setAttribute("title", element.description);
   galleryImage.alt = element.description;
 
   galleryItem.append(galleryLink);
